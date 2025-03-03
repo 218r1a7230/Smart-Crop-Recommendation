@@ -1,0 +1,22 @@
+{% if step == 1 %}
+    <label for="nitrogen" class="form-label">🌾 Enter Nitrogen (N) level:</label>
+    <input type="number" class="form-control" id="nitrogen" name="step_1" placeholder="e.g., 50" min="0" required>
+{% elif step == 2 %}
+    <label for="phosphorus" class="form-label">🧪 Enter Phosphorus (P) level:</label>
+    <input type="number" class="form-control" id="phosphorus" name="step_2" placeholder="e.g., 40" min="0" required>
+{% elif step == 3 %}
+    <label for="potassium" class="form-label">🔬 Enter Potassium (K) level:</label>
+    <input type="number" class="form-control" id="potassium" name="step_3" placeholder="e.g., 30" min="0" required>
+{% elif step == 4 %}
+    <label for="temperature" class="form-label">🌡️ Enter Temperature (°C):</label>
+    <input type="number" step="0.1" class="form-control" id="temperature" name="step_4" placeholder="e.g., 25.5" required>
+{% elif step == 5 %}
+    <label for="humidity" class="form-label">💧 Enter Humidity (%):</label>
+    <input type="number" step="0.1" class="form-control" id="humidity" name="step_5" placeholder="e.g., 60.5" min="0" max="100" required>
+{% elif step == 6 %}
+    <label for="ph" class="form-label">⚗️ Enter pH Level:</label>
+    <input type="number" step="0.1" class="form-control" id="ph" name="step_6" placeholder="e.g., 6.5" min="0" max="14" required>
+{% elif step == 7 %}
+    <label for="rainfall" class="form-label">☔ Enter Rainfall (mm):</label>
+    <input type="number" step="0.1" class="form-control" id="rainfall" name="step_7" placeholder="e.g., 200.5" min="0" required>
+{% endif %}
