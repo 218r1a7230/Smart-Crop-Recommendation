@@ -14,8 +14,7 @@ A modern web application that leverages machine learning to recommend the best c
 --------------------------------------------------------
 
 ## 🌐 Live Demo
-> _Host this app on [Render](https://render.com/), [PythonAnywhere](https://www.pythonanywhere.com/), or your favorite cloud platform and add the link here!_
-
+https://smart-crop-recommendation-vkrk.onrender.com
 --------------------------------------------------------
 
 ## 🛠️ Getting Started
